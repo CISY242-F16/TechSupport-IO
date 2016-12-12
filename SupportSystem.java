@@ -7,12 +7,13 @@ import java.util.HashSet;
  * in the text terminal.
  * 
  * This class uses an object of class InputReader to read input
- * from the user, and an object of class Responder to generate responses.
+ * from the user, and an object of class Responder to generate responses from a text file.
  * It contains a loop that repeatedly reads input and generates
  * output until the users wants to leave.
  * 
  * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Dana Sabatino
+ * @version 2016.12.11
  */
 public class SupportSystem
 {
@@ -20,7 +21,7 @@ public class SupportSystem
     private Responder responder;
     
     /**
-     * Creates a technical support system.
+     * Creates a technical support system for using user input at the console
      */
     public SupportSystem()
     {
